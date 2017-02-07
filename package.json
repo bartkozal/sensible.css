@@ -2,11 +2,17 @@
   "name": "css-sensible",
   "version": "1.0.0",
   "description": "One step above normalize.css",
+  "homepage": "https://github.com/bkzl/css-sensible",
+  "bugs": "https://github.com/bkzl/css-sensible/issues",
   "main": "main.css",
   "style": "main.css",
   "repository": "git@github.com:bkzl/css-sensible.git",
   "author": "Bartlomiej Kozal <bkzl@me.com>",
   "license": "MIT",
+  "files": [
+    "LICENSE",
+    "main.css"
+  ],
   "scripts": {
     "lint": "stylelint main.css"
   },
