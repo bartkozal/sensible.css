@@ -1,0 +1,10 @@
+{
+  "name": "css-sensible",
+  "version": "1.0.0",
+  "description": "One step above normalize.css",
+  "main": "main.css",
+  "style": "main.css",
+  "repository": "git@github.com:bkzl/css-sensible.git",
+  "author": "Bartlomiej Kozal <bkzl@me.com>",
+  "license": "MIT"
+}
