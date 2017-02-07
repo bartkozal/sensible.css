@@ -1,0 +1,114 @@
+:root {
+  --font-base: 1em;
+  --font-ratio: 1.333;
+  --font-leading: 1.45;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+body {
+  font-size: var(--font-base);
+  line-height: var(--font-leading);
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+input {
+  cursor: pointer;
+}
+
+img {
+  box-sizing: content-box;
+  vertical-align: middle;
+}
+
+p, ul, ol, dl, dd, hr,
+blockquote, pre, table, th, td,
+form, fieldset, caption, legend {
+  padding: 0;
+  margin: 0;
+}
+
+p, ul, ol, dl, hr,
+blockquote, pre, table, form {
+  margin-bottom: 1.3em;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+strong, em, small, code, hr {
+  line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.414em;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: calc(1em * var(--font-ratio) * var(--font-ratio) * var(--font-ratio) * var(--font-ratio));
+}
+
+h2 {
+  font-size: calc(1em * var(--font-ratio) * var(--font-ratio) * var(--font-ratio));
+}
+
+h3 {
+  font-size: calc(1em * var(--font-ratio) * var(--font-ratio));
+}
+
+h4 {
+  font-size: calc(1em * var(--font-ratio));
+}
+
+strong, em, small, code, hr {
+  line-height: 1;
+}
+
+small {
+  font-size: calc(1em / var(--font-ratio));
+}
+
+sup, sub {
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.4em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+code {
+  font-family: monospace;
+  white-space: nowrap;
+}
+
+pre code {
+  white-space: pre-wrap;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  text-align: left;
+}
