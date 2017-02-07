@@ -6,5 +6,22 @@
   "style": "main.css",
   "repository": "git@github.com:bkzl/css-sensible.git",
   "author": "Bartlomiej Kozal <bkzl@me.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint": "stylelint main.css"
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-standard",
+      "stylelint-config-recess-order"
+    ],
+    "rules": {
+      "selector-list-comma-newline-after": null
+    }
+  },
+  "devDependencies": {
+    "stylelint": "^7.8.0",
+    "stylelint-config-recess-order": "^0.3.0",
+    "stylelint-config-standard": "^16.0.0"
+  }
 }
