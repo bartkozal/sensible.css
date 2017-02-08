@@ -2,6 +2,7 @@
   --font-base: 1em;
   --font-ratio: 1.333;
   --font-leading: 1.45;
+  --spacing-unit: 1.3rem;
 }
 
 html {
@@ -36,7 +37,7 @@ form, fieldset, caption, legend {
 
 p, ul, ol, dl, hr,
 blockquote, pre, table, form {
-  margin-bottom: 1.3em;
+  margin-bottom: var(--spacing-unit);
 }
 
 ul ul,

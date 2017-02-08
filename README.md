@@ -26,6 +26,7 @@ CDN
 - Removes top and/or bottom margin from text, table and form elements
 - Removes bottom margin from nested ordered and unordered lists
 - Sets basic font size of headings, body and small text using [modular scale](http://www.modularscale.com/); you can control the values by setting: `--font-base` (1em), `--font-ratio` (1.3333) and `--font-leading` (1.45)
+- Defines `--spacing-unit` (1.3rem)
 - Changes images vertical align to middle
 - Sets tables border collapse and width (100%)
 - Aligns `thead` cells text to left
