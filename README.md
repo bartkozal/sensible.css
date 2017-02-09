@@ -16,7 +16,7 @@ Yarn
 
 CDN
 
-`<link rel="stylesheet" href="//cdn.rawgit.com/bkzl/sensible.css/v1.0.1/sensible.css">`
+`<link rel="stylesheet" href="//cdn.rawgit.com/bkzl/sensible.css/v1.0.2/sensible.css">`
 
 
 ## What does it do?
