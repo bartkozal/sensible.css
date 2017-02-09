@@ -16,7 +16,7 @@ Yarn
 
 CDN
 
-`<link rel="stylesheet" href="//cdn.rawgit.com/bkzl/sensible.css/v1.0.0/sensible.css">`
+`<link rel="stylesheet" href="//cdn.rawgit.com/bkzl/sensible.css/v1.0.1/sensible.css">`
 
 
 ## What does it do?
@@ -25,6 +25,7 @@ CDN
 - Shows vertical scrollbar
 - Removes top and/or bottom margin from text, table and form elements
 - Removes bottom margin from nested ordered and unordered lists
+- Sets font smoothing
 - Sets basic font size of headings, body and small text using [modular scale](http://www.modularscale.com/); you can control the values by setting: `--font-base` (1em), `--font-ratio` (1.3333) and `--font-leading` (1.45)
 - Defines `--spacing-unit` (1.3rem)
 - Changes images vertical align to middle
