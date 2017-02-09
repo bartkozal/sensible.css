@@ -33,4 +33,3 @@ CDN
 - Aligns `thead` cells text to left
 - Sets `code` and `pre code` white space
 - Positions `sup` and `sub`
-- Changes cursor for inputs to pointer

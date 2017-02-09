@@ -21,10 +21,6 @@ body {
   box-sizing: inherit;
 }
 
-input {
-  cursor: pointer;
-}
-
 img {
   box-sizing: content-box;
   vertical-align: middle;
