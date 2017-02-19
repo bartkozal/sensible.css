@@ -6,15 +6,15 @@ Based on modern APIs ([unit value](http://caniuse.com/#feat=calc) and [custom pr
 
 ## Installation
 
-NPM
+**npm**
 
 `$ npm install --save sensible.css`
 
-Yarn
+**Yarn**
 
 `$ yarn add sensible.css`
 
-CDN
+**CDN**
 
 `<link rel="stylesheet" href="//cdn.rawgit.com/bkzl/sensible.css/v1.0.2/sensible.css">`
 
