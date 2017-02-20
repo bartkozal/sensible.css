@@ -2,7 +2,7 @@
 
 Set of sensible CSS defaults for any website. Use along with the [normalize.css](https://necolas.github.io/normalize.css/).
 
-Based on modern APIs ([unit value](http://caniuse.com/#feat=calc) and [custom properties](http://caniuse.com/#feat=css-variables)). Works on Chrome, Firefox, Safari and Opera without additional libraries. For IE and Edge support you can use [postcss-cssnext](http://cssnext.io).
+Based on modern ([unit value](http://caniuse.com/#feat=calc) and [custom properties](http://caniuse.com/#feat=css-variables)) APIs. Works on Chrome, Firefox, Safari and Opera without additional libraries. For IE and Edge support you can use [postcss-cssnext](http://cssnext.io).
 
 ## Installation
 
@@ -33,3 +33,19 @@ Based on modern APIs ([unit value](http://caniuse.com/#feat=calc) and [custom pr
 - Aligns `thead` cells text to left
 - Sets `code` and `pre code` white space
 - Positions `sup` and `sub`
+
+## Custom properties
+
+Override custom properties by setting new values in the `:root` element:
+
+```css
+:root {
+  --font-base: 1em;
+  --font-ratio: 1.333;
+  --font-leading: 1.45;
+  --heading-ascent: 1.414em;
+  --heading-descent: 0.5em;
+  --heading-leading: 1.2;
+  --spacing-unit: 1.3rem;
+}
+```
