@@ -2,6 +2,9 @@
   --font-base: 1em;
   --font-ratio: 1.333;
   --font-leading: 1.45;
+  --heading-ascent: 1.414em;
+  --heading-descent: 0.5em;
+  --heading-leading: 1.2;
   --spacing-unit: 1.3rem;
 }
 
@@ -55,9 +58,9 @@ strong, em, small, code, hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 1.414em;
-  margin-bottom: 0.5em;
-  line-height: 1.2;
+  margin-top: var(--heading-ascent);
+  margin-bottom: var(--heading-descent);
+  line-height: var(--heading-leading);
 }
 
 h1 {
