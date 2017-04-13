@@ -2,6 +2,7 @@
   --font-base: 1em;
   --font-ratio: 1.333;
   --font-leading: 1.45;
+  --font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   --heading-ascent: 1.414em;
   --heading-descent: 0.5em;
   --heading-leading: 1.2;
@@ -16,6 +17,7 @@ html {
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  font-family: var(--font-stack);
   font-size: var(--font-base);
   line-height: var(--font-leading);
 }

@@ -28,6 +28,7 @@ Based on modern ([unit value](http://caniuse.com/#feat=calc) and [custom propert
 - Sets font smoothing
 - Sets basic font size of headings, body and small text using [modular scale](http://www.modularscale.com/); you can control the values by setting: `--font-base` (1em), `--font-ratio` (1.3333) and `--font-leading` (1.45)
 - Defines `--spacing-unit` (1.3rem)
+- Defines `--font-stack` to system fonts
 - Changes images vertical align to middle
 - Sets tables border collapse and width (100%)
 - Aligns `thead` cells text to left
